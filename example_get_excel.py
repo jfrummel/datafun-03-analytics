@@ -23,7 +23,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-fetched_folder_name = "example_data"
+fetched_folder_name = "data"
 
 #####################################
 # Define Functions
@@ -89,9 +89,9 @@ def main():
     """
     Main function to demonstrate fetching Excel data.
     """
-    excel_url = 'https://raw.githubusercontent.com/denisecase/datafun-03-analytics/main/hosted/Feedback.xlsx'
+    excel_url = 'https://github.com/jfrummel/datafun-03-analytics/raw/refs/heads/main/data/bike_sales.xlsx'
     logger.info("Starting Excel fetch demonstration...")
-    fetch_excel_file(fetched_folder_name, "feedback.xlsx", excel_url)
+    fetch_excel_file(fetched_folder_name, ".xlsx", excel_url)
 
 #####################################
 # Conditional Execution

@@ -23,7 +23,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-fetched_folder_name = "example_data"
+fetched_folder_name = "data"
 
 #####################################
 # Define Functions
@@ -89,9 +89,9 @@ def main():
     """
     Main function to demonstrate fetching text data.
     """
-    txt_url = 'https://raw.githubusercontent.com/denisecase/datafun-03-analytics/main/hosted/romeo.txt'
+    txt_url = 'https://cdn.serc.carleton.edu/files/teaching_computation/workshop_2018/activities/plain_text_version_declaration_inde.txt'
     logger.info("Starting text fetch demonstration...")
-    fetch_txt_file(fetched_folder_name, "romeo.txt", txt_url)
+    fetch_txt_file(fetched_folder_name, "declaration.txt", txt_url)
 
 #####################################
 # Conditional Execution

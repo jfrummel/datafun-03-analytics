@@ -24,7 +24,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-fetched_folder_name = "example_data"
+fetched_folder_name = "data"
 
 #####################################
 # Define Functions
@@ -90,9 +90,9 @@ def main():
     """
     Main function to demonstrate fetching JSON data.
     """
-    json_url = 'http://api.open-notify.org/astros.json'
+    json_url = 'https://raw.githubusercontent.com/jfrummel/datafun-03-analytics/refs/heads/main/data/users_100.json'
     logger.info("Starting JSON fetch demonstration...")
-    fetch_json_file(fetched_folder_name, "astros.json", json_url)
+    fetch_json_file(fetched_folder_name, "users.json", json_url)
 
 #####################################
 # Conditional Execution

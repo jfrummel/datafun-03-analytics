@@ -23,7 +23,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-fetched_folder_name = "example_data"
+fetched_folder_name = "data"
 
 #####################################
 # Define Functions
@@ -89,9 +89,9 @@ def main():
     """
     Main function to demonstrate fetching CSV data.
     """
-    csv_url = 'https://raw.githubusercontent.com/MainakRepositor/Datasets/master/World%20Happiness%20Data/2020.csv'
+    csv_url = 'https://raw.githubusercontent.com/jfrummel/datafun-03-analytics/refs/heads/main/data/dataset%20-%202020-09-24.csv'
     logger.info("Starting CSV fetch demonstration...")
-    fetch_csv_file(fetched_folder_name, "2020_happiness.csv", csv_url)
+    fetch_csv_file(fetched_folder_name, "soccer.csv", csv_url)
 
 #####################################
 # Conditional Execution

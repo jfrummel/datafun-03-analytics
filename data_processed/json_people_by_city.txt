@@ -1,0 +1,5 @@
+People by City:
+New York: 3
+Atlanta: 2
+Los Angeles: 1
+Manhattan: 1

@@ -1,0 +1,5 @@
+Goal Statistics:
+Minimum: 0.00
+Maximum: 180.00
+Mean: 7.33
+Standard Deviation: 16.81
